@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void) {
+int main() 
+{
     int n;
 
     printf("Enter the number of terms (n > 0): ");
@@ -9,7 +10,7 @@ int main(void) {
         return 1;
     }
 
-    unsigned long long a = 0, b = 1, next;
+    long long a = 0, b = 1, next;
     int i = 1;
 
     printf("First %d term(s) of the Fibonacci series:\n", n);
